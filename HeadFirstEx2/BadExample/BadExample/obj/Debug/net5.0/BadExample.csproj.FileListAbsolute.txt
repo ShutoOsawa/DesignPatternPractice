@@ -1,0 +1,16 @@
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\bin\Debug\net5.0\BadExample.exe
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\bin\Debug\net5.0\BadExample.deps.json
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\bin\Debug\net5.0\BadExample.runtimeconfig.json
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\bin\Debug\net5.0\BadExample.runtimeconfig.dev.json
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\bin\Debug\net5.0\BadExample.dll
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\bin\Debug\net5.0\ref\BadExample.dll
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\bin\Debug\net5.0\BadExample.pdb
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\obj\Debug\net5.0\BadExample.csproj.AssemblyReference.cache
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\obj\Debug\net5.0\BadExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\obj\Debug\net5.0\BadExample.AssemblyInfoInputs.cache
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\obj\Debug\net5.0\BadExample.AssemblyInfo.cs
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\obj\Debug\net5.0\BadExample.csproj.CoreCompileInputs.cache
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\obj\Debug\net5.0\BadExample.dll
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\obj\Debug\net5.0\ref\BadExample.dll
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\obj\Debug\net5.0\BadExample.pdb
+C:\Users\Fridge\source\repos\HeadFirstEx2\BadExample\BadExample\obj\Debug\net5.0\BadExample.genruntimeconfig.cache

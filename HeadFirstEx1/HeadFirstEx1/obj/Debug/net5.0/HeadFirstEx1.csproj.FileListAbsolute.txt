@@ -1,0 +1,16 @@
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\bin\Debug\net5.0\HeadFirstEx1.exe
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\bin\Debug\net5.0\HeadFirstEx1.deps.json
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\bin\Debug\net5.0\HeadFirstEx1.runtimeconfig.json
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\bin\Debug\net5.0\HeadFirstEx1.runtimeconfig.dev.json
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\bin\Debug\net5.0\HeadFirstEx1.dll
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\bin\Debug\net5.0\ref\HeadFirstEx1.dll
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\bin\Debug\net5.0\HeadFirstEx1.pdb
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\obj\Debug\net5.0\HeadFirstEx1.csproj.AssemblyReference.cache
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\obj\Debug\net5.0\HeadFirstEx1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\obj\Debug\net5.0\HeadFirstEx1.AssemblyInfoInputs.cache
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\obj\Debug\net5.0\HeadFirstEx1.AssemblyInfo.cs
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\obj\Debug\net5.0\HeadFirstEx1.csproj.CoreCompileInputs.cache
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\obj\Debug\net5.0\HeadFirstEx1.dll
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\obj\Debug\net5.0\ref\HeadFirstEx1.dll
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\obj\Debug\net5.0\HeadFirstEx1.pdb
+C:\Users\Fridge\source\repos\HeadFirstEx1\HeadFirstEx1\obj\Debug\net5.0\HeadFirstEx1.genruntimeconfig.cache
