@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fridge\\Documents\\CSGit\\DesignPatternPractice\\HeadFirstEx1\\HeadFirstEx1\\HeadFirstEx1.csproj",
-      "projectName": "HeadFirstEx1",
-      "projectPath": "C:\\Users\\Fridge\\Documents\\CSGit\\DesignPatternPractice\\HeadFirstEx1\\HeadFirstEx1\\HeadFirstEx1.csproj",
+      "projectUniqueName": "C:\\Users\\Fridge\\Documents\\CSGit\\DesignPatternPractice\\HeadFirstEx3\\HeadFirstEx3\\HeadFirstEx3.csproj",
+      "projectName": "HeadFirstEx3",
+      "projectPath": "C:\\Users\\Fridge\\Documents\\CSGit\\DesignPatternPractice\\HeadFirstEx3\\HeadFirstEx3\\HeadFirstEx3.csproj",
       "packagesPath": "C:\\Users\\Fridge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fridge\\Documents\\CSGit\\DesignPatternPractice\\HeadFirstEx1\\HeadFirstEx1\\obj\\",
+      "outputPath": "C:\\Users\\Fridge\\Documents\\CSGit\\DesignPatternPractice\\HeadFirstEx3\\HeadFirstEx3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fridge\\AppData\\Roaming\\NuGet\\NuGet.Config",

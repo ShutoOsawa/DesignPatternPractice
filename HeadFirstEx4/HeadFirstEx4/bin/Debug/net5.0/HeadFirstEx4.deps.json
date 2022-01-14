@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "HeadFirstEx4/1.0.0": {
+        "runtime": {
+          "HeadFirstEx4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HeadFirstEx4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

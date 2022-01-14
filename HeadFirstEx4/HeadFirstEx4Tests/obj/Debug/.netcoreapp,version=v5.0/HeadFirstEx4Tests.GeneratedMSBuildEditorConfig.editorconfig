@@ -1,10 +1,10 @@
 is_global = true
-build_property.TargetFramework = net5.0
+build_property.TargetFramework = .NETCoreApp,Version=v5.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = HeadFirstEx1
-build_property.ProjectDir = C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx1\HeadFirstEx1\
+build_property.RootNamespace = HeadFirstEx4Tests
+build_property.ProjectDir = C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx4\HeadFirstEx4Tests\
