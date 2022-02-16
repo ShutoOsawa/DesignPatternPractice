@@ -1,0 +1,16 @@
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\bin\Debug\net5.0\HeadFirstEx5.exe
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\bin\Debug\net5.0\HeadFirstEx5.deps.json
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\bin\Debug\net5.0\HeadFirstEx5.runtimeconfig.json
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\bin\Debug\net5.0\HeadFirstEx5.runtimeconfig.dev.json
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\bin\Debug\net5.0\HeadFirstEx5.dll
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\bin\Debug\net5.0\ref\HeadFirstEx5.dll
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\bin\Debug\net5.0\HeadFirstEx5.pdb
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\obj\Debug\net5.0\HeadFirstEx5.csproj.AssemblyReference.cache
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\obj\Debug\net5.0\HeadFirstEx5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\obj\Debug\net5.0\HeadFirstEx5.AssemblyInfoInputs.cache
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\obj\Debug\net5.0\HeadFirstEx5.AssemblyInfo.cs
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\obj\Debug\net5.0\HeadFirstEx5.csproj.CoreCompileInputs.cache
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\obj\Debug\net5.0\HeadFirstEx5.dll
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\obj\Debug\net5.0\ref\HeadFirstEx5.dll
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\obj\Debug\net5.0\HeadFirstEx5.pdb
+C:\Users\Fridge\Documents\CSGit\DesignPatternPractice\HeadFirstEx5\HeadFirstEx5\obj\Debug\net5.0\HeadFirstEx5.genruntimeconfig.cache

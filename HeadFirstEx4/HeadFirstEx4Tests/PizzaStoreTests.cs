@@ -11,11 +11,11 @@ namespace HeadFirstEx4.Tests
     [TestClass()]
     public class PizzaStoreTests
     {
-        private PizzaStore ps = new PizzaStore();
+        //private PizzaStore ps = new PizzaStore();
         [TestMethod()]
         public void cheesePizzaTest()
         {
-            ps.orderPizza("cheese pizza");
+            //ps.orderPizza("cheese pizza");
             
         }
     }
