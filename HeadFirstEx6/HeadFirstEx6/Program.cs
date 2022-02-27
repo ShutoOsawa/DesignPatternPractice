@@ -6,7 +6,12 @@ namespace HeadFirstEx6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SimpleRemoteControl remote = new SimpleRemoteControl();
+            Light light = new Light();
+            LightOnCommand lightOn = new LightOnCommand(light);
+
+            remote.setCommand(lightOn);
+            remote.buttonWasPressed();
         }
     }
 
@@ -33,12 +38,28 @@ namespace HeadFirstEx6
     {
         public void on()
         {
-
+            Console.WriteLine("Light is On");
         }
 
         public void off()
         {
+            Console.WriteLine("Light is Off");
+        }
+    }
 
+    public class SimpleRemoteControl
+    {
+        Command slot;
+        public SimpleRemoteControl() { }
+
+        public void setCommand(Command command)
+        {
+            slot = command;
+        }
+
+        public void buttonWasPressed()
+        {
+            slot.execute();
         }
     }
 }
