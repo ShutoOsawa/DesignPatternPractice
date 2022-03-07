@@ -7,12 +7,20 @@ namespace HeadFirstEx6
     {
         static void Main(string[] args)
         {
-            SimpleRemoteControl remote = new SimpleRemoteControl();
-            Light light = new Light();
-            LightOnCommand lightOn = new LightOnCommand(light);
-
-            remote.setCommand(lightOn);
-            remote.buttonWasPressed();
+            RemoteControl remote = new RemoteControl();
+            
+            Light livingRoomLight = new Light("Living Room");
+            Light kitchenLight = new Light("Kitchen");
+            LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);
+            LightOnCommand kitchenLightOn = new LightOnCommand(kitchenLight);
+            LightOffCommand livingRoomLightOff = new LightOffCommand(livingRoomLight);
+            LightOffCommand kitchenLightOff = new LightOffCommand(kitchenLight);
+            remote.setCommand(0,livingRoomLightOn,livingRoomLightOff);
+            remote.setCommand(1,kitchenLightOn, kitchenLightOff);
+            remote.onButtonWasPushed(0);
+            remote.offButtonWasPushed(0);
+            remote.onButtonWasPushed(1);
+            remote.offButtonWasPushed(1);
         }
     }
 
@@ -35,16 +43,78 @@ namespace HeadFirstEx6
         }
     }
 
+    public class LightOffCommand : Command
+    {
+        Light light;
+        public LightOffCommand(Light light)
+        {
+            this.light = light;
+        }
+
+        public void execute()
+        {
+            light.off();
+        }
+    }
+
+   
+
     public class Light
     {
+        private string name;
+
+        public Light(string name = "")
+        {
+            this.name = name;
+        }
+
         public void on()
         {
-            Console.WriteLine("Light is On");
+            Console.WriteLine($"{name} Light is On");
         }
 
         public void off()
         {
-            Console.WriteLine("Light is Off");
+            Console.WriteLine($"{name} Light is Off");
+        }
+    }
+
+    public class Stereo
+    {
+        public void on()
+        {
+            Console.WriteLine("Stereo is On");
+        }
+
+        public void off()
+        {
+            Console.WriteLine("Stereo is Off");
+        }
+
+        public void setCD()
+        {
+
+        }
+
+        public void setVolume(int volume)
+        {
+
+        }
+    }
+    public class StereoOnWithCDCommand : Command
+    {
+        Stereo stereo;
+
+        public StereoOnWithCDCommand(Stereo stereo)
+        {
+            this.stereo = stereo;
+        }
+
+        public void execute()
+        {
+            stereo.on();
+            stereo.setCD();
+            stereo.setVolume(11);
         }
     }
 
