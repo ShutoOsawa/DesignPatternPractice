@@ -7,26 +7,36 @@ namespace HeadFirstEx6
     {
         static void Main(string[] args)
         {
-            RemoteControl remote = new RemoteControl();
-            
+            //RemoteControl remote = new RemoteControl();
+            RemoteControlWithUndo remote = new RemoteControlWithUndo();
             Light livingRoomLight = new Light("Living Room");
             Light kitchenLight = new Light("Kitchen");
-            LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);
-            LightOnCommand kitchenLightOn = new LightOnCommand(kitchenLight);
+            LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);            
             LightOffCommand livingRoomLightOff = new LightOffCommand(livingRoomLight);
+
+            LightOnCommand kitchenLightOn = new LightOnCommand(kitchenLight);
             LightOffCommand kitchenLightOff = new LightOffCommand(kitchenLight);
+
             remote.setCommand(0,livingRoomLightOn,livingRoomLightOff);
             remote.setCommand(1,kitchenLightOn, kitchenLightOff);
+
             remote.onButtonWasPushed(0);
+            remote.undoButtonWasPushed();
             remote.offButtonWasPushed(0);
+            remote.undoButtonWasPushed();
+            
+            Console.WriteLine(remote.toString());
             remote.onButtonWasPushed(1);
             remote.offButtonWasPushed(1);
+
+            
         }
     }
 
     public interface Command
     {
         public void execute();
+        public void undo();
     }
 
     public class LightOnCommand: Command
@@ -41,6 +51,11 @@ namespace HeadFirstEx6
         {
             light.on();
         }
+
+        public void undo()
+        {
+            light.off();
+        }
     }
 
     public class LightOffCommand : Command
@@ -54,6 +69,11 @@ namespace HeadFirstEx6
         public void execute()
         {
             light.off();
+        }
+
+        public void undo()
+        {
+            light.on();
         }
     }
 
@@ -116,6 +136,11 @@ namespace HeadFirstEx6
             stereo.setCD();
             stereo.setVolume(11);
         }
+
+        public void undo()
+        {
+
+        }
     }
 
     public class SimpleRemoteControl
@@ -139,6 +164,11 @@ namespace HeadFirstEx6
         public void execute()
         {
             
+        }
+
+        public void undo()
+        {
+
         }
     }
 
@@ -184,6 +214,63 @@ namespace HeadFirstEx6
             StringBuilder sb = new StringBuilder();
             sb.Append("\n------ Remote Control------ -\n");
             for(int i=0;i < onCommands.Length; i++)
+            {
+                sb.Append("[slot " + i + "] " + onCommands[i].GetType().Name + " " + offCommands[i].GetType().Name + "\n");
+            }
+
+            return sb.ToString();
+        }
+    }
+
+    public class RemoteControlWithUndo
+    {
+        Command[] onCommands;
+        Command[] offCommands;
+        Command undoCommand;
+
+        public RemoteControlWithUndo()
+        {
+            onCommands = new Command[7];
+            offCommands = new Command[7];
+
+            Command noCommand = new NoCommand();
+            for (int i = 0; i < 7; i++)
+            {
+                onCommands[i] = noCommand;
+                offCommands[i] = noCommand;
+            }
+            undoCommand = noCommand;
+        }
+
+        public void setCommand(int slot, Command onCommand, Command offCommand)
+        {
+            onCommands[slot] = onCommand;
+            offCommands[slot] = offCommand;
+
+        }
+
+        public void onButtonWasPushed(int slot)
+        {
+            onCommands[slot].execute();
+            undoCommand = onCommands[slot];
+        }
+
+        public void offButtonWasPushed(int slot)
+        {
+            offCommands[slot].execute();
+            undoCommand = offCommands[slot];
+        }
+
+        public void undoButtonWasPushed()
+        {
+            undoCommand.undo();
+        }
+
+        public string toString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("\n------ Remote Control------ -\n");
+            for (int i = 0; i < onCommands.Length; i++)
             {
                 sb.Append("[slot " + i + "] " + onCommands[i].GetType().Name + " " + offCommands[i].GetType().Name + "\n");
             }
