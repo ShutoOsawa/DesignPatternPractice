@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BBs+hk8dyOl0oP+XiLkgcQCdAq/y5bezGZLtQIpGatlxPtN5A+TNWpg9N9Mb8dikicAZIhDsfnRZzLSMA+W6Gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fridge\\Documents\\CSGit\\DesignPatternPractice\\HeadFirstEx9Composite\\HeadFirstEx9Composite\\HeadFirstEx9Composite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fridge\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -8,7 +8,10 @@ namespace HeadFirstEx6
         static void Main(string[] args)
         {
             //RemoteControl remote = new RemoteControl();
+            //invoker
             RemoteControlWithUndo remote = new RemoteControlWithUndo();
+
+            //command objects
             Light livingRoomLight = new Light("Living Room");
             Light kitchenLight = new Light("Kitchen");
             LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);            
@@ -17,9 +20,11 @@ namespace HeadFirstEx6
             LightOnCommand kitchenLightOn = new LightOnCommand(kitchenLight);
             LightOffCommand kitchenLightOff = new LightOffCommand(kitchenLight);
 
+            //store command objects in the invoker
             remote.setCommand(0,livingRoomLightOn,livingRoomLightOff);
             remote.setCommand(1,kitchenLightOn, kitchenLightOff);
 
+            //execute commands
             remote.onButtonWasPushed(0);
             remote.undoButtonWasPushed();
             remote.offButtonWasPushed(0);

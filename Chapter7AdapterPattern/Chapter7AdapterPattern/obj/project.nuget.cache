@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UaSO9HDJG3GmzTvzGEnf362vPipWqTmfC57NLlRIhsxZ2ZfrmbolXQnYeDIYnPGACK89a8BnR6ds39aMT4zXLg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fridge\\Documents\\CSGit\\DesignPatternPractice\\Chapter7AdapterPattern\\Chapter7AdapterPattern\\Chapter7AdapterPattern.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fridge\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RunEa8m4hXTW1pgx4o4krZWKbgs3A6UVXis4KL8EcftWW4tw6VgmpUMa2N0yehKWgNsOz7ubMaomKTs47flakQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fridge\\Documents\\CSGit\\DesignPatternPractice\\HeadFirstEx8\\HeadFirstEx8\\HeadFirstEx8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fridge\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
